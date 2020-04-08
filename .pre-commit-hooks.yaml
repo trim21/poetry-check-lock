@@ -1,4 +1,4 @@
-- id:
+- id: poetry-check-lock
   name: poetry_check_lock
   entry: poetry_check_lock
   require_serial: false
