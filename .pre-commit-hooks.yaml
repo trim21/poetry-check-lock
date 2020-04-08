@@ -1,5 +1,5 @@
 - id: poetry-check-lock
-  name: poetry_check_lock
+  name: Check poetry.lock fresh
   entry: poetry_check_lock
   require_serial: false
   language: python
