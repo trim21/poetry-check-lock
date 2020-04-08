@@ -1,0 +1,7 @@
+- id:
+  name: poetry_check_lock
+  entry: poetry_check_lock
+  require_serial: false
+  language: python
+  pass_filenames: false
+  files: '^(pyproject\.toml)|(poetry\.lock)$'
