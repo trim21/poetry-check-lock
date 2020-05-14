@@ -14,10 +14,9 @@ poetry_check_lock = 'poetry_check_lock:cli'
 python = "^3.5"
 
 poetry = "^1.0.5"
-toml = "^0.10.0"
 
 [tool.poetry.dev-dependencies]
-yapf = "^0.29.0"
+yapf = "^0.30.0"
 pre-commit = "*"
 
 [build-system]
