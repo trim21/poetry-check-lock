@@ -2,7 +2,7 @@
 
 ```yaml
   - repo: https://github.com/Trim21/poetry-check-lock.git
-    rev: v0.0.2
+    rev: v0.0.3
     hooks:
       - id: poetry-check-lock
 ```
