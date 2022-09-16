@@ -1,6 +1,18 @@
 {
-  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
-    "local>trim21/renovate-config"
+    "github>Trim21/renovate-config",
+    "github>Trim21/renovate-config:monthly",
+    "github>Trim21/renovate-config:poetry"
+  ],
+  "separateMajorMinor": false,
+  "separateMinorPatch": false,
+  "rangeStrategy": "bump",
+  "packageRules": [
+    {
+      "depTypeList": [
+        "dev-dependencies"
+      ],
+      "rangeStrategy": "pin"
+    }
   ]
 }
