@@ -10,7 +10,7 @@ poetry_check_lock = 'poetry_check_lock:cli'
 
 [tool.poetry.dependencies]
 python = "^3.5"
-poetry = "^1.1.0"
+poetry = "^1.1.9"
 
 [tool.poetry.dev-dependencies]
 yapf = "^0.30.0"
