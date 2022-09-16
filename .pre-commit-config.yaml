@@ -1,6 +1,6 @@
 repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v2.5.0
+    rev: 3298ddab3c13dd77d6ce1fc0baf97691430d84b0  # frozen: v4.3.0
     hooks:
       - id: check-case-conflict
       - id: check-ast
@@ -30,12 +30,12 @@ repos:
         args: [--remove]
 
   - repo: https://github.com/timothycrosley/isort
-    rev: 4.3.21-2
+    rev: c5e8fa75dda5f764d20f66a215d71c21cfa198e1  # frozen: 5.10.1
     hooks:
       - id: isort
 
   - repo: https://github.com/myint/autoflake
-    rev: 7a53fdafc82c33f446915b60fcac947c51279260 # frozen: v1.4
+    rev: 862cc98ee47b27951f7cb4cf7aee8fcec657faab  # frozen: v1.5.3
     hooks:
       - id: autoflake
         args:
@@ -45,6 +45,6 @@ repos:
           - --expand-star-imports
 
   - repo: https://github.com/psf/black
-    rev: f6c139c5215ce04fd3e73a900f1372942d58eca0  # frozen: 22.6.0
+    rev: 2018e667a6a36ee3fbfa8041cd36512f92f60d49  # frozen: 22.8.0
     hooks:
       - id: black
