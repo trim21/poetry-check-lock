@@ -9,12 +9,11 @@ packages = [{ include = "poetry_check_lock.py" }]
 poetry_check_lock = 'poetry_check_lock:cli'
 
 [tool.poetry.dependencies]
-python = "^3.5"
+python = "^3.7"
 poetry = "^1.1.9"
 
 [tool.poetry.dev-dependencies]
-yapf = "^0.30.0"
-pre-commit = "*"
+pre-commit = "^2.9.2"
 
 [build-system]
 requires = ["poetry-core"]
